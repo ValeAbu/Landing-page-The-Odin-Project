@@ -24,6 +24,7 @@ button {
     background-color: rgb(190, 142, 52);
     font-weight: bolder;
     font-size: 18px;
+    
 }
 
 button:hover {
@@ -34,6 +35,7 @@ button:hover {
     justify-content: space-around;
     align-items: center;
     height: 110px;
+    width: auto;
 }
 
 .container-header {
@@ -41,7 +43,6 @@ button:hover {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    width: 100%;
     height: 500px;
     padding-right: 100px;
 
@@ -54,7 +55,6 @@ button:hover {
     padding-right: 20px;
     width: 540px;
     height: 250px;
-    flex-shrink: 0;
 }
 
 .image-right {
@@ -96,8 +96,11 @@ a:hover {
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-shrink: 0;
-    background-color: grey;
+    background-color: #1F2937;
+    height: 60px;
+    color: white;
 }
 
 .centered {
@@ -112,14 +115,14 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 1400px;
-    height: 300px;
 }
 
 .cards > h1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    padding-top: 30px;
+    margin-top: 40px;
 }
 
 .card {
@@ -127,7 +130,6 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     flex: 1;
-    height: 400px;
     padding-top: 50px;
 }
 
@@ -142,4 +144,33 @@ footer {
 .lasagna-4 {
     height: 180px;
     width: auto;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+    width: auto;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1400px;
+}
+
+.text > p {
+    align-self: flex-end;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right: 60px;
 }
