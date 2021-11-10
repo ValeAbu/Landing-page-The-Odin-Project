@@ -16,7 +16,7 @@ h1 {
 }
 
 
-button {
+.call-to-action {
     border-radius: 24px;
     border: none;
     width: 185px;
@@ -27,7 +27,7 @@ button {
     
 }
 
-button:hover {
+.call-to-action:hover {
     background-color: rgb(255, 166, 0);
 }
 .container {
@@ -163,7 +163,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1400px;
+    width: 1300px;
 }
 
 .text > p {
@@ -173,4 +173,51 @@ footer {
     font-weight: bold;
     padding-top: 20px;
     padding-right: 60px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+    width: auto;
+}
+
+.container-cta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 1300px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    color: white;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-side {
+    display: flex;
+    height: 50px;  
+}
+
+#strong {
+    border-radius: 24px;
+    border: none;
+    width: 185px;
+    color: white;
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#strong:hover {
+    background-color: #5f9bfb;
 }
