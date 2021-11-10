@@ -67,6 +67,7 @@ h1 {
 
 .links {
     display: flex;
+    align-items: center;
     gap: 30px;
     padding-right: 27px;
     font-size: 18px;
