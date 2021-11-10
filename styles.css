@@ -109,8 +109,9 @@ footer {
     align-items: center;
     flex-shrink: 0;
     background-color: #1F2937;
-    height: 60px;
+    height: 90px;
     color: white;
+    font-size: 22px;
 }
 
 .centered {
